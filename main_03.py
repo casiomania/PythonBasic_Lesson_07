@@ -17,7 +17,7 @@ def primes_count(list_of_int_numbers):
 
 try:
     spec_list = [2, 5, 7, 8]
-    print(f"Qty of primes in the list {spec_list} is equal to {primes_count(spec_list)}" )
+    print(f"Qty of primes in the list {spec_list} is equal to {primes_count(spec_list)}")
 
 except Exception as error:
     print(f"Error: {error}")
